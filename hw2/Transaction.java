@@ -19,8 +19,8 @@ public class Transaction {
     При успешном переводе, сумма должна списываться с текущего счета и зачисляться на целевой счет.
      */
     public static void main(String[] args) {
-        Client client1 = new Client("Roman");
-        Client client2 = new Client("Sergey");
+        Client client1 = new Client("Evgeni");
+        Client client2 = new Client("Aleksey");
         try {
             Transaction transaction = new Transaction();
             transaction.addMoney(client1, transaction.inputFromUser(
